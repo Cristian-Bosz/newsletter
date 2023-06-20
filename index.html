@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Email Template</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+        .ExternalClass {width: 100%;}
+        h1, h2, p{
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        table{
+            border-spacing: 0;
+        }
+        .wrapper{
+            width: 100%;
+            table-layout: fixed;
+            background-color: #eddedd;
+            padding-bottom: 20px;
+        }
+        .main{
+            width: 100%;
+            max-width: 700px;
+            background-color: #fff;
+        }
+        .attendance-container {
+        text-align: center;
+        }
+        .attendance-p,
+        .attendance-date {
+        display: inline-block;
+        vertical-align: middle;
+        }
+        .attendance-p {
+        max-width: 350px;
+        width: 100%;
+        text-align: start;
+        }
+        .attendance-date {
+        background-color: #f4f4f4;
+        color: #23135f;
+        text-align: center;
+        max-width: 300px;
+        width: 100%;
+        height: 500px;
+        }
+        .date-container {
+        padding-top: 25%;
+        }
+        .attendance-date p {
+        font-size: 18px;
+        font-weight: 600;
+        }
+        .calendar-icon {
+        fill: #23135f;
+        width: 25%;
+        padding-top: 2em;
+        text-align: center;
+        }
+        .attendance-btn {
+        background-color: #23135f;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        padding: 5px 1em;
+        border: none;
+        text-decoration: none;
+        }
+        .video-container{
+        text-align: center;
+        padding: 2em 1em;
+        background-image: url("https://i.ibb.co/ph9QJcM/stacked-steps-haikei-1.png");
+        }     
+        .video{
+        max-width: 350px;
+        width: 100%;
+        height: 200px;
+        vertical-align: middle;
+        }
+        .video-text{
+        max-width: 300px;
+        width: 100%;
+        text-align: start;
+        vertical-align: middle;
+        color: #f4f4f4;
+        }
+        .video-text p{
+            padding: 0 8px;
+        }
+        .speaker-h2{
+            font-weight: 400;
+            text-align: center;
+            padding: 2em 1em;
+        }
+        .footer{
+        background-color: #7c55b5;
+        color: #f4f4f4;
+        padding: 1em 1em;
+        text-align: center;
+        }
+        .info-footer{
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 300px;
+        width: 100%;
+        text-align: start;
+        padding: 10px 0;
+
+        }
+        .logo-footer{
+            display: inline-block;
+        vertical-align: middle;
+        max-width: 200px;
+        width: 100%;
+        text-align: end;
+        padding: 10px 0;
+        font-size: 14px;
+        }
+        .email{
+            color: #23135f;
+        }
+        .logo{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <tr>
+                <td>
+
+                <table style="max-width: 100%; width: 100%;">
+                    <tr>
+                        <td>
+                            <img src="https://i.ibb.co/xH0dNCy/banner2.jpg" alt="banner2" style="max-width: 100%; width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+                 
+                <table width="100%">
+                    <tr>
+                        <td class="attendance-container">
+                            <table class="attendance-p">
+                                <tr>
+                                    <td width="100%">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Possimus quibusdam, ex quo dicta quas dolore quaerat vel molestiae autem eos earum minima, iure porro sapiente est deserunt inventore consectetur! Reprehenderit!</p>
+                
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<b> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b> </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="attendance-date">
+                                <tr>
+                                    <td width="100%" class="date-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" class="calendar-icon" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g>
+                                                <g>
+                                                    <path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392    c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188    h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="76" y="230" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="156" y="230" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="236" y="230" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="316" y="230" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="396" y="230" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="76" y="310" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="156" y="310" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="236" y="310" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="316" y="310" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="76" y="390" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="156" y="390" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="236" y="390" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="316" y="390" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="396" y="310" width="40" height="40"/>
+                                                </g>
+                                            </g>
+                                          
+                                        </svg>
+
+                                        <p>March 3 | 12:00 PM <br>
+                                            <b>TBD</b></p>
+                        
+                                        <a href="#" class="attendance-btn">Confirm attendance</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+                              
+                <table width="100%">
+                    <tr>
+                        <td width="100%" class="video-container"> 
+                            <table width="100%">
+                                <tr>
+                                    <td width="100%" class="video" style="display: inline-block;">
+                                        
+                                        <a href="https://www.youtube.com/embed/K4TOrB7at0Y" target="_blank"><img src="https://i.ibb.co/JzJWsJc/Vector-Smart-Object.jpg" alt="Vista previa de video"></a>
+                                    </td>
+                                    <td width="100%" class="video-text" style="display: inline-block;">
+                                        <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</b>  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        </p>
+
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <h2 class="speaker-h2">Speaker: <b>Lorem Ipsum</b> - Dolor sit amet</h2>
+                        </td>
+                    </tr>
+                </table>
+
+                <table width="100%">
+                    <tr>
+                        <td class="footer">    
+                                <table class="info-footer">
+                                    <tr>
+                                        <td >
+                                            <p>More information <br>
+                                            <b>Lorem ipsum</b> | Vice president<br>
+                                            <span class="email">consectetur@loremipsum.com</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="logo-footer">
+                                    <tr>
+                                        <td class="logo-container">
+                                            <a href="#"><img src="https://i.ibb.co/1myQ749/logo.png" alt="logo generic" class="logo"></a>
+                                            <p>Generic 2020. <br>
+                                                All rights reserved.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                        </td>
+                    </tr>
+                </table>
+                
+                </td>
+            </tr>
+
+
+        </table>
+
+
+    </center>
+        
+    
+</body>
+</html>
